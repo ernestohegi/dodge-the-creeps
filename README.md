@@ -30,14 +30,16 @@ If your binary is named differently on your system (for example `godot`), use th
 ## Controls
 
 - Move: Arrow keys (`Up`, `Down`, `Left`, `Right`)
-- Start game action: `Enter`
+- Start game action: `Enter` or click on Start button
 
 ## Project Structure
 
 - `project.godot`: project configuration
-- `main.tscn` / `main.gd`: main scene and game flow
-- `player.tscn` / `player.gd`: player scene and movement logic
-- `mob.tscn` / `mob.gd`: enemy scene and behavior
+- `main.tscn`: main scene
+- `scripts/main.gd`: main game flow logic
+- `scenes/player.tscn` + `scripts/player.gd`: player scene and movement logic
+- `scenes/mob.tscn` + `scripts/mob.gd`: enemy scene and behavior
+- `scenes/hud.tscn` + `scripts/hud.gd`: HUD scene and UI logic
 - `art/`: sprites and audio assets
 - `fonts/`: font files and licenses
 
